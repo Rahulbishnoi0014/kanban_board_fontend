@@ -1,0 +1,16 @@
+.dashrow{
+    display: flex;
+    gap: 20px;
+}
+
+.dashcol{
+    display: flex;
+    /* gap: 20px; */
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* flex-direction: column; */
+
+}
+

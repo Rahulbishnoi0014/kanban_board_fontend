@@ -1,0 +1,90 @@
+.cardbody {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+
+    font-family: sans-serif;
+
+    padding: 10px 10px 5px 15px;
+    margin: 5px;
+
+    height: max-content;
+    width: 350px;
+    position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.cardbody .picbox {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius: 50%;
+
+}
+
+.cardbody .picbox .activeicon {
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+
+    height: 7px;
+    width: 7px;
+
+    /* background-color: rgb(3, 255, 3); */
+    border-radius: 50%;
+}
+
+.cardbody .pic {
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.cardbody .id {
+    font-weight: 500;
+    color: grey;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.cardbody .title {
+    font-size: 14px;
+    width: 70%;
+    margin: 0;
+
+}
+
+.sbox {
+    display: flex;
+    gap: 5px;
+
+}
+
+.sicon {
+    margin-top: 1px;
+    color: rgb(0, 81, 255);
+}
+
+.sicon img {
+    height: 14px;
+}
+
+.tag {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    height: max-content;
+    font-size: 11px;
+
+    width: max-content;
+}
+
+
+@media screen and (max-width: 480px) {
+    .cardbody {
+        width: 300px;
+
+    }
+}
